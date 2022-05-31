@@ -11,6 +11,7 @@ header {
   top: 0;
   right: 0;
   left: 0;
+  z-index: 4;
 }
 
 header img {
@@ -51,7 +52,7 @@ body {
 
 .missionimage {
   display: flex;
-  background-image: url(./images/img-mission-background.jpg);
+  background-image: url(/images/img-mission-background.jpg);
   width: 1200px;
   height: 700px;
   background-repeat: no-repeat;
@@ -90,7 +91,7 @@ figure {
   margin: 0 33px 25px 0px;
 }
 
-.featureimage figcaption {
+.featureimage figc aption {
   text-align: center;
   padding-top: 10px;
 }
@@ -108,7 +109,7 @@ figure {
 }
 
 .locationscontainerbackground {
-  background-image: url(./images/img-locations-background.jpg);
+  background-image: url(/images/img-locations-background.jpg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -128,6 +129,7 @@ figure {
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
+  z-index: 1;
 }
 
 .blackbox {
@@ -143,6 +145,16 @@ figure {
   align-items: center;
   justify-content: space-around;
   height: 200px;
+}
+
+.endcontainer a {
+  color: seashell;
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+.endcontainer h3 {
+  margin: 0;
 }
 
 .footer {
